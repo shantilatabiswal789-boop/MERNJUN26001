@@ -1,0 +1,186 @@
+
+.login-container{
+    width:370px;
+    height: 500px;
+    padding:5px;    
+    margin: 100px auto;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    background-color: white;
+}
+.login-container h1{
+    text-align: center;
+    color: black;
+    margin: 50px 0px
+}
+.login-group{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.login-group input{
+    width: 70%;
+    padding: 10px;
+    margin: 5px auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    background-color: inherit;
+}
+.login-btn{
+    padding: 5px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.login-btn button{
+    padding: 10px 130px;
+    margin: 10px;
+    border : none;
+    border-radius: 0px;
+    background-color: rgb(135, 195, 235);
+    color:white;
+    font-size: 16px;
+    border-radius: 5px; 
+}
+.password{
+    text-align: center;
+    color: grey;
+    margin-top: 20px 
+}
+nav{
+    width: 700px;
+    height: 70px;
+    margin: 200px 100px;
+    display: flex;
+    box-shadow: 0px 0px 5px 1px black;
+    background-color: black;
+    border-radius: 25px;
+}
+nav .nav-container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo p{
+   font-size: 20px;
+   font-weight: bold;
+   color: white; 
+}
+ul{
+width: 50px;
+display: flex;
+margin: 20px 0px;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+ul li{
+  font-size: 15px;
+  color: white;
+  font-weight: 500px;  
+}
+ul li:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav-btn{
+    width:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn button{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color:yellowgreen;
+    color:BLACK;
+}
+.nav-btn button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+nav{
+    width: 700px;
+    height: 70px;
+    margin: 50px 100px;
+    display: flex;
+    box-shadow: 0px 0px 5px 1px black;
+    background-color: black;
+    border-radius: 50px;
+}
+nav .nav-container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo p{
+   font-size: 20px;
+   font-weight: bold;
+   color: white; 
+}
+ul{
+width: 250px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+ul .l1{
+  font-size: 15px;
+  color: white;
+  font-weight: 500px;
+  text-decoration: underline;
+}
+ul .l1:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+.nav-btn{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn button{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color:yellowgreen;
+    color:BLACK;
+}
+.nav-btn button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.nav-select button{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
