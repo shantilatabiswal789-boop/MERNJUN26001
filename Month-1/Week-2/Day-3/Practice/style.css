@@ -80,11 +80,11 @@
 }
 
 .p-box:hover{
-    /* transform: rotateY(90deg); */
-    /* transform: translateY(100px); */
-    /* transform: scaleY(2); */
-    /* transform-origin:center ; */
-    /* transform: skew(180deg); */
+    /* transform: rotate(90deg); */
+    /* transform: translateX(100px);*/ 
+    /* transform: scale(2); */ 
+    /* transform-origin:center; */
+    /* transform: skew(180deg); */ 
 }
 
 
