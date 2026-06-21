@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <nav class="flex justify-between items-center m-3 bg-white shadow">
+      <h1 class="p-4 text-2xl font-bold text-blue-500">e<span class="text-yellow-500">Coach</span></h1>
+
+        
+        <ul class="justify-end md:flex gap-12">
+            <li>Demos</li>
+            <li>All Pages</li>
+            <li>Courses</li>
+            <li>Shop</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+        </ul>
+        <button class="bg-blue-500 p-2 text-white font-l rounded mr-4">Login/Register</button>
+
+    </nav>
+    <section class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class=" mt-4 ml-8 text-4xl font-bold">Education that<p></p> prepare you for <p></p>what's next.</h1>
+        <p class="ml-8 text-l">Start, switch, or advance your carrer with more than 5,400</p> 
+        <p class="ml-8 text-l">courses, Professional Certificates, and degrees from world-</p>
+        <p class="ml-8 text-l">class universities and companies.</p>
+        <button class="p-3 m-10 bg-blue-500 text-white ">Explore Course -></button>
+      </div>
+      <div class="md:w-1/2 mt-10 md:mt-0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLi5gyYklglKZ57pRpAkecuuQzMX_G_vLrNg&s" alt="student image" class="w-900 max-w-md mx-auto rounded-xl" />
+      </div>
+      
+    </section>
 </body>
 </html>
