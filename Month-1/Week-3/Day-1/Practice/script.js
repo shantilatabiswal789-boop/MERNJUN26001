@@ -36,7 +36,7 @@ function getV(){
 }
 
 // console.log(d)
-getV()
+// getV()
 
 var num;
 console.log(num);
