@@ -1,27 +1,27 @@
 // what is array
 let arr=[1,2,3,4,6,5];
 
-// arr.push(21);
-// console.log(arr);
-// arr.pop()
-// arr.pop()
-// console.log(arr);
+arr.push(21);
+console.log(arr);
+arr.pop()
+arr.pop()
+console.log(arr);
 
-// arr.unshift(-1,0);
-// console.log(arr);
-// arr.shift()
-// console.log(arr);
+arr.unshift(-1,0);
+console.log(arr);
+arr.shift()
+console.log(arr);
 
-// console.log(arr.length);
-// console.log(arr.concat([11,22,33]));
-// console.log(arr);//0,1,2,3,4,5
-// arr.splice(3,2,19)
-// console.log(arr);
+console.log(arr.length);
+console.log(arr.concat([11,22,33]));
+console.log(arr);//0,1,2,3,4,5
+arr.splice(3,2,19)
+console.log(arr);
 
 // console.log(arr.join(""));
 
 // console.log(arr.toReversed());
-// onsole.log(arr);
+// console.log(arr);
 console.log(arr.sort());
 
 // function
@@ -58,7 +58,9 @@ let checkEvenNumber=function(number){
 }
 checkEvenNumber(24);
 checkEvenNumber(40);
+
 // higher order function
+
 function returnValue(){
     return 30
 }
@@ -81,7 +83,7 @@ hof(()=>{
 // sort()
 
 // forEach()
-let arr1=[1,2,3,4,5,6];
+let arr1=[1,2,3,4,5,6,99,77,22];
 arr.forEach((v,i)=>{
    console.log(v+1)
 })
@@ -90,3 +92,22 @@ let updateArr=arr1.map((v,i)=>{
     return v * v;
 });
 console.log(updateArr);
+
+let filteredArr = arr1.filter((v,i)=> {
+    return v%2==0;
+});
+console.log(filteredArr);
+
+let sum=arr1.reduce((accu,curr)=>{
+    return accu+curr
+},0);
+console.log(sum)
+
+let sum=0; // 0/1/3
+for (let v of arr1){
+    sum=sum+v;
+}
+console.log(sum)
+
+let sortArr=arr1.sort((a,b)=> b - a);
+console.log(sortArr);
